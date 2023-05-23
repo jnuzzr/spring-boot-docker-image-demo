@@ -1,5 +1,5 @@
 # 基础镜像：FROM命令： 基础镜像名：tag，例如：java：8
-FROM jdk:8
+FROM openjdk:8
 # 下面RUN执行时的目录
 WORKDIR /app
 # 镜像的操作指令
