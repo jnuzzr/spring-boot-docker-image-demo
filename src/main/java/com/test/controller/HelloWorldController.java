@@ -10,8 +10,10 @@ public class HelloWorldController {
     public String hello(){
 
         System.out.println("Hello World");
-
-        return "Hello World";
+		
+		System.out.println("Hello jenkins");
+		
+        return "Hello World; hello jenkins";
     }
 
 
